@@ -32,10 +32,10 @@ public class ScoreScript : MonoBehaviour {
 
     void setCountText()
     {
-        countText.text = "Count: " + count.ToString ();
-        if (count >= 2) 
+        countText.text = "Monsters Caught " + count.ToString ();
+        if (count >= 12) 
         {
-            winText.text = "You win"; 
+            winText.text = "Victory"; 
         }
     }
 }

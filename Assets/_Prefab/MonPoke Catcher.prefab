@@ -12,7 +12,7 @@ GameObject:
   - 135: {fileID: 13524806}
   - 23: {fileID: 2325718}
   - 54: {fileID: 5446714}
-  - 114: {fileID: 11457860}
+  - 114: {fileID: 11462754}
   m_Layer: 0
   m_Name: MonPoke Catcher
   m_TagString: Untagged
@@ -80,7 +80,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &11457860
+--- !u!114 &11462754
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -88,7 +88,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 194232}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab6e7e0272f2d345b4636218f76b98f, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a3bfa7a6d780184b8a2eb4390096d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!135 &13524806

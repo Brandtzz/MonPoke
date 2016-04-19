@@ -1378,42 +1378,6 @@ Transform:
   - {fileID: 1520447904}
   m_Father: {fileID: 0}
   m_RootOrder: 6
---- !u!1 &404758707 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
-  m_PrefabInternal: {fileID: 1753963997}
---- !u!114 &404758708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 404758707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 689df1cacacb2df4194549ab93b6261b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  throwSound: {fileID: 0}
-  launchPoint: {fileID: 1802024773}
-  monPokeCatcher: {fileID: 194232, guid: 8a9962e9a98bf424083cc8efe7d45648, type: 2}
-  prefabMonPokeCatcher: {fileID: 194232, guid: 8a9962e9a98bf424083cc8efe7d45648, type: 2}
-  Velocity: 1000
---- !u!114 &404758713
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 404758707}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d9647afa5d6210448c6effb55684f40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  launchPoint: {fileID: 1802024773}
-  monPokeCatcher: {fileID: 194232, guid: 8a9962e9a98bf424083cc8efe7d45648, type: 2}
-  prefabMonPokeCatcher: {fileID: 194232, guid: 8a9962e9a98bf424083cc8efe7d45648, type: 2}
-  aimingMode: 0
-  Velocity: 2500
 --- !u!4 &409365141 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 2a54b0efd5ad7c14abbb83677f8b33db, type: 2}
@@ -5558,6 +5522,26 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 13db1d4df6986d047a29eb9a35fb321e, type: 2}
   m_PrefabInternal: {fileID: 1748330273}
+--- !u!1 &1798909887 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 1753963997}
+--- !u!114 &1798909891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1798909887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9647afa5d6210448c6effb55684f40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchPoint: {fileID: 1802024773}
+  monPokeCatcher: {fileID: 194232, guid: 8a9962e9a98bf424083cc8efe7d45648, type: 2}
+  prefabMonPokeCatcher: {fileID: 194232, guid: 8a9962e9a98bf424083cc8efe7d45648, type: 2}
+  aimingMode: 0
+  Velocity: 1000
 --- !u!1 &1802024773
 GameObject:
   m_ObjectHideFlags: 0

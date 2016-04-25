@@ -988,6 +988,30 @@ Transform:
   - {fileID: 1318733376}
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!1 &353147129 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 110342, guid: fa484b2b9d523074f9f833820678b999, type: 2}
+  m_PrefabInternal: {fileID: 1347408390}
+--- !u!195 &353147130
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 353147129}
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &359323438
 Prefab:
   m_ObjectHideFlags: 0
@@ -2259,32 +2283,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f460bdf1ebb4ed04bacb802939d8049c, type: 2}
   m_IsPrefabParent: 0
-<<<<<<< HEAD
---- !u!1 &1018066498 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 110342, guid: fa484b2b9d523074f9f833820678b999, type: 2}
-  m_PrefabInternal: {fileID: 1347408390}
---- !u!195 &1018066506
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1018066498}
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
-=======
 --- !u!1 &1035108484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2325,7 +2323,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 50, y: 10, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
->>>>>>> 42f285b8a624320e06d5dfa688cfb30e580ce92a
 --- !u!4 &1116816377 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 6424d87afda7c084f8ca90bf51fd6e04, type: 2}
@@ -3831,11 +3828,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
-      value: 7
-=======
       value: 8
->>>>>>> 42f285b8a624320e06d5dfa688cfb30e580ce92a
       objectReference: {fileID: 0}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_SlopeLimit

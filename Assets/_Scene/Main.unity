@@ -6695,7 +6695,6 @@ Transform:
   - {fileID: 1472774273}
   - {fileID: 527128756}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 9
 --- !u!1 &2022175309
 GameObject:
@@ -6737,7 +6736,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 30, y: 16.519152, z: -0.10134183}
   m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
-=======
   m_RootOrder: 12
 --- !u!1001 &2020569978
 Prefab:
@@ -6781,7 +6779,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9aac4da7fb6c0f04da18c3750ee2d3be, type: 2}
   m_IsPrefabParent: 0
->>>>>>> 3e7057f54046352e0bd30a98ee84383e35311dd5
 --- !u!1 &2035824461
 GameObject:
   m_ObjectHideFlags: 0

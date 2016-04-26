@@ -69,7 +69,7 @@ public class ScoreScript : MonoBehaviour {
         countText.text = " Grouchos Caught " + grouchoCount.ToString () + "\n Red Dino Caught " + redDinoCount.ToString() + "\n Grey Dino Caught " + greyDinoCount.ToString() + "\n Green Dino Caught " + greenDinoCount.ToString();
         if (grouchoCount >= 1 && redDinoCount >= 1 && greyDinoCount >= 1 && greenDinoCount >= 1) 
         {
-            winText.text = "Victory"; 
+            winText.text = "Congratz, you are the ultimate MonPoke Master. "; 
         }
     }
 }

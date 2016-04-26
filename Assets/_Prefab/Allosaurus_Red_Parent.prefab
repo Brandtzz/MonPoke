@@ -556,7 +556,7 @@ GameObject:
   - 54: {fileID: 5491100}
   m_Layer: 0
   m_Name: Allosaurus_Red_Parent
-  m_TagString: Catch
+  m_TagString: CatchRedDino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -28,7 +28,7 @@ GameObject:
   - 54: {fileID: 5405136}
   m_Layer: 0
   m_Name: Allosaurus_Green_Parent
-  m_TagString: Catch
+  m_TagString: CatchGreenDino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

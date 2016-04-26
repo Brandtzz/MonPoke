@@ -66,7 +66,7 @@ public class ScoreScript : MonoBehaviour {
 
     void setCountText()
     {
-        countText.text = "Grouchos Caught " + grouchoCount.ToString () + "Red Dino Caught" + redDinoCount.ToString() + "Grey Dino Caught" + greyDinoCount.ToString() + "Green Dino Caught" + greenDinoCount.ToString();
+        countText.text = " Grouchos Caught " + grouchoCount.ToString () + "\n Red Dino Caught " + redDinoCount.ToString() + "\n Grey Dino Caught " + greyDinoCount.ToString() + "\n Green Dino Caught " + greenDinoCount.ToString();
         if (grouchoCount >= 1 && redDinoCount >= 1 && greyDinoCount >= 1 && greenDinoCount >= 1) 
         {
             winText.text = "Victory"; 

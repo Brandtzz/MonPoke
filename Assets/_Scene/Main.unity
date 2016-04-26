@@ -335,6 +335,46 @@ MeshCollider:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: f2716708e2285114d804f3f9d0469dff, type: 3}
   m_PrefabInternal: {fileID: 617942069}
+--- !u!1 &115042023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 115042024}
+  - 65: {fileID: 115042025}
+  m_Layer: 0
+  m_Name: River (40)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115042024
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115042023}
+  m_LocalRotation: {x: 0, y: 0.5231959, z: 0, w: 0.8522124}
+  m_LocalPosition: {x: 519.9, y: 45.20121, z: 377.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 40
+--- !u!65 &115042025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 115042023}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!4 &115864979 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 817a1b461c9e9334795fb68fe965138b, type: 2}
@@ -421,6 +461,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3170071b601530b49b08f06beca71b57, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &131613890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 131613891}
+  - 65: {fileID: 131613892}
+  m_Layer: 0
+  m_Name: River (35)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &131613891
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131613890}
+  m_LocalRotation: {x: 0, y: -0.5041182, z: 0, w: 0.86363465}
+  m_LocalPosition: {x: 591.61, y: 45.20121, z: 325.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 35
+--- !u!65 &131613892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131613890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 39, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1001 &169507907
 Prefab:
   m_ObjectHideFlags: 0
@@ -513,6 +593,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f460bdf1ebb4ed04bacb802939d8049c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &181822399
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 181822400}
+  - 65: {fileID: 181822401}
+  m_Layer: 0
+  m_Name: River (41)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &181822400
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181822399}
+  m_LocalRotation: {x: 0, y: 0.5582859, z: 0, w: 0.8296487}
+  m_LocalPosition: {x: 510.3, y: 45.20121, z: 397.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 41
+--- !u!65 &181822401
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181822399}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1001 &182072320
 Prefab:
   m_ObjectHideFlags: 0
@@ -733,6 +853,46 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 50, y: 10, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &248314758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 248314759}
+  - 65: {fileID: 248314760}
+  m_Layer: 0
+  m_Name: River (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &248314759
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248314758}
+  m_LocalRotation: {x: -0.025399907, y: 0.38264692, z: 0.0016940637, w: 0.9235439}
+  m_LocalPosition: {x: 522.7, y: 48.2, z: 444.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 30
+--- !u!65 &248314760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248314758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 33, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1 &274268909
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,6 +1140,46 @@ MeshCollider:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 9b6ad04ffe2454240bbc19d0ef8c3a0c, type: 3}
   m_PrefabInternal: {fileID: 1791235958}
+--- !u!1 &332801785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 332801786}
+  - 65: {fileID: 332801787}
+  m_Layer: 0
+  m_Name: River (47)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &332801786
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332801785}
+  m_LocalRotation: {x: 0, y: -0.124515444, z: 0, w: 0.9922177}
+  m_LocalPosition: {x: 370.5, y: 45.20121, z: 383.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 47
+--- !u!65 &332801787
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332801785}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 32, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1 &334222575
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,6 +1693,46 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 13db1d4df6986d047a29eb9a35fb321e, type: 2}
   m_PrefabInternal: {fileID: 1568214642}
+--- !u!1 &434682111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 434682112}
+  - 65: {fileID: 434682113}
+  m_Layer: 0
+  m_Name: River (46)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &434682112
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 434682111}
+  m_LocalRotation: {x: 0, y: -0.20430383, z: 0, w: 0.9789076}
+  m_LocalPosition: {x: 399.3, y: 45.20121, z: 393.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 46
+--- !u!65 &434682113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 434682111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!4 &463678931 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 0d71e87fda2c2f74ca1f1a20a2d22345, type: 2}
@@ -1700,6 +1940,31 @@ Transform:
   - {fileID: 1257043070}
   - {fileID: 81842449}
   - {fileID: 845771703}
+  - {fileID: 1564167338}
+  - {fileID: 1970087648}
+  - {fileID: 1552226821}
+  - {fileID: 897374183}
+  - {fileID: 1818788562}
+  - {fileID: 766549566}
+  - {fileID: 248314759}
+  - {fileID: 2124737840}
+  - {fileID: 991908059}
+  - {fileID: 750904266}
+  - {fileID: 1804824941}
+  - {fileID: 131613891}
+  - {fileID: 632704997}
+  - {fileID: 2022175310}
+  - {fileID: 1106623064}
+  - {fileID: 806505412}
+  - {fileID: 115042024}
+  - {fileID: 181822400}
+  - {fileID: 1004095976}
+  - {fileID: 1739209390}
+  - {fileID: 1172913416}
+  - {fileID: 765690785}
+  - {fileID: 434682112}
+  - {fileID: 332801786}
+  - {fileID: 2085714954}
   m_Father: {fileID: 0}
   m_RootOrder: 10
 --- !u!1 &609536784
@@ -1826,6 +2091,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f67d13f0ac9d854da5fe7a99b1510be, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &632704996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 632704997}
+  - 65: {fileID: 632704998}
+  m_Layer: 0
+  m_Name: River (36)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &632704997
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 632704996}
+  m_LocalRotation: {x: 0, y: -0.5041182, z: 0, w: 0.86363465}
+  m_LocalPosition: {x: 597.37, y: 45.20121, z: 322.21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 36
+--- !u!65 &632704998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 632704996}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 39, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!4 &675195740 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 9016517daf916ad46b57daed654504d4, type: 2}
@@ -2053,14 +2358,174 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 40, y: 20, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &750904265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 750904266}
+  - 65: {fileID: 750904267}
+  m_Layer: 0
+  m_Name: River (33)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &750904266
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750904265}
+  m_LocalRotation: {x: 0, y: 0.3404247, z: 0, w: 0.9402718}
+  m_LocalPosition: {x: 572.5, y: 45.20121, z: 364.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 33
+--- !u!65 &750904267
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 750904265}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 33, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
+--- !u!1 &765690784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 765690785}
+  - 65: {fileID: 765690786}
+  m_Layer: 0
+  m_Name: River (45)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &765690785
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 765690784}
+  m_LocalRotation: {x: 0, y: -0.20430383, z: 0, w: 0.9789076}
+  m_LocalPosition: {x: 425.2073, y: 45.20121, z: 404.90344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 45
+--- !u!65 &765690786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 765690784}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!4 &765989678 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 4ca0318c4a50b3849a6d1ff3c69009da, type: 2}
   m_PrefabInternal: {fileID: 947416008}
+--- !u!1 &766549565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 766549566}
+  - 65: {fileID: 766549567}
+  m_Layer: 0
+  m_Name: River (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &766549566
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 766549565}
+  m_LocalRotation: {x: -0.023614246, y: 0.07653065, z: 0.009507501, w: 0.99674225}
+  m_LocalPosition: {x: 497.6, y: 48.1, z: 458.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 29
+--- !u!65 &766549567
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 766549565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 33, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!4 &784309265 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 01b8abd17cda7694b850cfb1df28dbb5, type: 2}
   m_PrefabInternal: {fileID: 1913262182}
+--- !u!1 &806505411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 806505412}
+  - 65: {fileID: 806505413}
+  m_Layer: 0
+  m_Name: River (39)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806505412
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806505411}
+  m_LocalRotation: {x: 0, y: 0.505375, z: 0, w: 0.86289984}
+  m_LocalPosition: {x: 533.3, y: 45.20121, z: 353.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 39
+--- !u!65 &806505413
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 806505411}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1 &813063976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2463,6 +2928,46 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 40, y: 20, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &897374182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 897374183}
+  - 65: {fileID: 897374184}
+  m_Layer: 0
+  m_Name: River (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &897374183
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 897374182}
+  m_LocalRotation: {x: -0.016338, y: -0.40265286, z: 0.01952165, w: 0.9149987}
+  m_LocalPosition: {x: 441.24, y: 57.5, z: 459.77}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 27
+--- !u!65 &897374184
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 897374182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35, y: 20, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &898491196
 GameObject:
@@ -2904,10 +3409,90 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 69878d3ff4069af42b1080f385ca182a, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &991908058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 991908059}
+  - 65: {fileID: 991908060}
+  m_Layer: 0
+  m_Name: River (32)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &991908059
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 991908058}
+  m_LocalRotation: {x: -0.025314657, y: 0.5472205, z: -0.0031541726, w: 0.83659965}
+  m_LocalPosition: {x: 553.7, y: 46.4, z: 389}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 32
+--- !u!65 &991908060
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 991908058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 33, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!4 &998166083 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 69878d3ff4069af42b1080f385ca182a, type: 2}
   m_PrefabInternal: {fileID: 971001868}
+--- !u!1 &1004095975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1004095976}
+  - 65: {fileID: 1004095977}
+  m_Layer: 0
+  m_Name: River (42)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1004095976
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004095975}
+  m_LocalRotation: {x: 0, y: 0.3328023, z: 0, w: 0.9429967}
+  m_LocalPosition: {x: 494.9, y: 45.20121, z: 417.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 42
+--- !u!65 &1004095977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004095975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!4 &1008142740 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
@@ -3148,6 +3733,46 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 15, y: 20, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1106623063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1106623064}
+  - 65: {fileID: 1106623065}
+  m_Layer: 0
+  m_Name: River (38)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1106623064
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1106623063}
+  m_LocalRotation: {x: 0, y: 0.42763826, z: 0, w: 0.90395}
+  m_LocalPosition: {x: 548.59, y: 45.20121, z: 332.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 38
+--- !u!65 &1106623065
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1106623063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!4 &1116816377 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 6424d87afda7c084f8ca90bf51fd6e04, type: 2}
@@ -3234,6 +3859,46 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 35, y: 20, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1172913415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1172913416}
+  - 65: {fileID: 1172913417}
+  m_Layer: 0
+  m_Name: River (44)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1172913416
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1172913415}
+  m_LocalRotation: {x: 0, y: -0.24398692, z: 0, w: 0.96977854}
+  m_LocalPosition: {x: 449.6, y: 45.20121, z: 417.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 44
+--- !u!65 &1172913417
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1172913415}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1 &1174093739
 GameObject:
   m_ObjectHideFlags: 0
@@ -4559,6 +5224,46 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 0c5fa332187126b49a1e9939b653c735, type: 2}
   m_PrefabInternal: {fileID: 1284524237}
+--- !u!1 &1552226820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1552226821}
+  - 65: {fileID: 1552226822}
+  m_Layer: 0
+  m_Name: River (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1552226821
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552226820}
+  m_LocalRotation: {x: -0.019504996, y: -0.23614654, z: 0.016357878, w: 0.9713839}
+  m_LocalPosition: {x: 420.07, y: 57.87, z: 445.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 26
+--- !u!65 &1552226822
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1552226820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35, y: 20, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1554945600
 Prefab:
   m_ObjectHideFlags: 0
@@ -4659,6 +5364,46 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13db1d4df6986d047a29eb9a35fb321e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1564167337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1564167338}
+  - 65: {fileID: 1564167339}
+  m_Layer: 0
+  m_Name: River (24)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1564167338
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1564167337}
+  m_LocalRotation: {x: -0.019504996, y: -0.23614654, z: 0.016357878, w: 0.9713839}
+  m_LocalPosition: {x: 361.7, y: 57.2, z: 416.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 24
+--- !u!65 &1564167339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1564167337}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 40, y: 20, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1568214642
 Prefab:
   m_ObjectHideFlags: 0
@@ -4894,6 +5639,46 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: f460bdf1ebb4ed04bacb802939d8049c, type: 2}
   m_PrefabInternal: {fileID: 178121237}
+--- !u!1 &1739209389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1739209390}
+  - 65: {fileID: 1739209391}
+  m_Layer: 0
+  m_Name: River (43)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1739209390
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1739209389}
+  m_LocalRotation: {x: 0, y: -0.044732764, z: 0, w: 0.998999}
+  m_LocalPosition: {x: 470, y: 45.20121, z: 425.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 43
+--- !u!65 &1739209391
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1739209389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1001 &1748330273
 Prefab:
   m_ObjectHideFlags: 0
@@ -5357,6 +6142,86 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1008142740}
   m_RootOrder: 0
+--- !u!1 &1804824940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1804824941}
+  - 65: {fileID: 1804824942}
+  m_Layer: 0
+  m_Name: River (34)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1804824941
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1804824940}
+  m_LocalRotation: {x: 0, y: 0.3404247, z: 0, w: 0.9402718}
+  m_LocalPosition: {x: 587.91, y: 45.20121, z: 351.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 34
+--- !u!65 &1804824942
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1804824940}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 33, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
+--- !u!1 &1818788561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1818788562}
+  - 65: {fileID: 1818788563}
+  m_Layer: 0
+  m_Name: River (28)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1818788562
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1818788561}
+  m_LocalRotation: {x: -0.024937946, y: 0.2543258, z: 0.005111152, w: 0.9667836}
+  m_LocalPosition: {x: 483.91235, y: 48.000004, z: 466.394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 28
+--- !u!65 &1818788563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1818788561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 33, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1 &1834690870
 GameObject:
   m_ObjectHideFlags: 0
@@ -5617,6 +6482,46 @@ MeshCollider:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: f2716708e2285114d804f3f9d0469dff, type: 3}
   m_PrefabInternal: {fileID: 1535000784}
+--- !u!1 &1970087647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1970087648}
+  - 65: {fileID: 1970087649}
+  m_Layer: 0
+  m_Name: River (25)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970087648
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970087647}
+  m_LocalRotation: {x: -0.019504996, y: -0.23614654, z: 0.016357878, w: 0.9713839}
+  m_LocalPosition: {x: 394.52, y: 56.69, z: 432.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 25
+--- !u!65 &1970087649
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970087647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 35, y: 20, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1970333213 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5f67d13f0ac9d854da5fe7a99b1510be, type: 2}
@@ -5749,6 +6654,46 @@ Transform:
   - {fileID: 527128756}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!1 &2022175309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2022175310}
+  - 65: {fileID: 2022175311}
+  m_Layer: 0
+  m_Name: River (37)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2022175310
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022175309}
+  m_LocalRotation: {x: 0, y: 0.24855013, z: 0, w: 0.9686191}
+  m_LocalPosition: {x: 569.55, y: 45.20121, z: 315.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 37
+--- !u!65 &2022175311
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022175309}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1 &2035824461
 GameObject:
   m_ObjectHideFlags: 0
@@ -5811,6 +6756,46 @@ MeshCollider:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: f76d5663e3855bc449771b98f3c18f68, type: 3}
   m_PrefabInternal: {fileID: 182072320}
+--- !u!1 &2085714953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2085714954}
+  - 65: {fileID: 2085714955}
+  m_Layer: 0
+  m_Name: River (48)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2085714954
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2085714953}
+  m_LocalRotation: {x: -0.051158015, y: -0.040899128, z: -0.0066084084, w: 0.9978309}
+  m_LocalPosition: {x: 462.2, y: 47.9, z: 473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 48
+--- !u!65 &2085714955
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2085714953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}
 --- !u!1001 &2088728590
 Prefab:
   m_ObjectHideFlags: 0
@@ -5947,3 +6932,43 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0c5fa332187126b49a1e9939b653c735, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2124737839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2124737840}
+  - 65: {fileID: 2124737841}
+  m_Layer: 0
+  m_Name: River (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2124737840
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2124737839}
+  m_LocalRotation: {x: -0.025314657, y: 0.5472205, z: -0.0031541726, w: 0.83659965}
+  m_LocalPosition: {x: 540.6, y: 47.4, z: 417.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 586163326}
+  m_RootOrder: 31
+--- !u!65 &2124737841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2124737839}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 33, y: 16.519152, z: -0.10134183}
+  m_Center: {x: -0.0007660948, y: 1.7402843, z: -0.099175796}

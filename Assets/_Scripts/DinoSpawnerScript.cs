@@ -18,20 +18,47 @@ public class DinoSpawnerScript : MonoBehaviour {
         allosarus_Red = GameObject.FindGameObjectsWithTag ("CatchRedDino");
         amount_RedDino = allosarus_Red.Length;
 
-        if (amount_RedDino <= 6 ) {
-            InvokeRepeating ("AllosarusRedSpawn", 1, 5f);
+		allosarus_Grey = GameObject.FindGameObjectsWithTag ("CatchGreyDino");
+		amount_GreyDino = allosarus_Grey.Length;
 
-        }
+		allosarus_Green = GameObject.FindGameObjectsWithTag ("CatchGreenDino");
+		amount_GreenDino = allosarus_Green.Length;
+
+        if (amount_RedDino <= 5 )
+            InvokeRepeating ("RedSpawn", 1, 5f);
+		
+		if (amount_GreyDino <= 5)
+			InvokeRepeating ("GreySpawn", 1, 5f);
+
+		if (amount_GreenDino <= 5)
+			InvokeRepeating ("GreenSpawn", 1, 5f);
 	}
 
-    void AllosarusRedSpawn()
+    void RedSpawn()
     {
         spawnPoint.x = Random.Range (277, 215 );
-        spawnPoint.y = Random.Range (55f);
+        spawnPoint.y = 52f;
         spawnPoint.z = Random.Range (879, 927 );
 
         Instantiate (allosarus_Red [UnityEngine.Random.Range (0, allosarus_Red.Length - 1)], spawnPoint, Quaternion.identity);
         CancelInvoke ();
-
     }
+
+	void GreySpawn() {
+		spawnPoint.x = Random.Range (835, 960);
+		spawnPoint.y = 55f;
+		spawnPoint.z = Random.Range (910, 935);
+
+		Instantiate (allosarus_Grey [UnityEngine.Random.Range (0, allosarus_Grey.Length - 1)], spawnPoint, Quaternion.identity);
+		CancelInvoke ();
+	}
+
+	void GreenSpawn() {
+		spawnPoint.x = Random.Range (48, 68);
+		spawnPoint.y = 51f;
+		spawnPoint.z = Random.Range (390, 465);
+
+		Instantiate (allosarus_Green [UnityEngine.Random.Range (0, allosarus_Green.Length - 1)], spawnPoint, Quaternion.identity);
+		CancelInvoke ();
+	}
 }

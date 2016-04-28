@@ -14,8 +14,10 @@ public class GrunchoSpawner : MonoBehaviour {
 		gruncho = GameObject.FindGameObjectsWithTag ("Catch");
 		amount = gruncho.Length;
 
-		if (amount <= 20 ) {
+		if (amount <= 10) {
 			InvokeRepeating ("spawnGrunchoCampsite", 1, 5f);
+		} 
+		else if (amount <= 20) {
 			InvokeRepeating ("spawnGrunchoCampsite2", 1, 5f);
 		}
 	}
@@ -30,10 +32,10 @@ public class GrunchoSpawner : MonoBehaviour {
 	}
 
 	void spawnGrunchoCampsite2() {
-		spawnPoint.x = Random.Range (513, 890);
-		spawnPoint.y = 50f;
-		spawnPoint.z = Random.Range (87, 250);
-
+		spawnPoint.x = Random.Range (513, 870);
+		spawnPoint.y = 55f;
+		spawnPoint.z = Random.Range (100, 250);
+			
 		Instantiate (gruncho [UnityEngine.Random.Range (0, gruncho.Length - 1)], spawnPoint, Quaternion.identity);
 		CancelInvoke ();
 	}

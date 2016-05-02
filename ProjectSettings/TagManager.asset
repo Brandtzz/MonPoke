@@ -9,6 +9,8 @@ TagManager:
   - CatchGreyDino
   - CatchRedDino
   - CatchGreenDino
+  - Ball
+  - Terrain
   layers:
   - Default
   - TransparentFX

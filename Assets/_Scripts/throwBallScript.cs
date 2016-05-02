@@ -9,11 +9,13 @@ public class throwBallScript : MonoBehaviour
     public GameObject launchPoint; 
 
     public GameObject monPokeCatcher;
-    public GameObject prefabMonPokeCatcher;
+	Transform prefabMonPokeCatcher;
 
     public bool aimingMode; 
 
     public float Velocity = 1000;
+	private float BallTimer = 0;
+	private float timeToDestroy = 0;
 
     void Awake()
     {
@@ -36,15 +38,28 @@ public class throwBallScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            ShootBall(); 
-        }
+		BallTimer += Time.deltaTime;
+		timeToDestroy += Time.deltaTime;
+
+		if (Input.GetMouseButtonDown (0) && BallTimer >= 5) {
+			ShootBall ();
+			BallTimer = 0;
+		}
+
+		DestroyBall ();
     }
 
+	void DestroyBall() {
+		
+		if (timeToDestroy >= 3) {
+			Destroy (monPokeCatcher, timeToDestroy);
+			timeToDestroy = 0;
+		}
 
-
-
-
+		if (gameObject == null) {
+			//GameObject.Instantiate (monPokeCatcher);
+//			GameObject = Instantiate (prefabMonPokeCatcher);
+		}
+	}
 
 }

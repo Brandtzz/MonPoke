@@ -13,6 +13,7 @@ GameObject:
   - 23: {fileID: 2325718}
   - 54: {fileID: 5446714}
   - 114: {fileID: 11462754}
+  - 114: {fileID: 11468422}
   m_Layer: 0
   m_Name: MonPoke Catcher
   m_TagString: Ball
@@ -91,6 +92,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a3bfa7a6d780184b8a2eb4390096d6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11468422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f45530975d37023478538882a1392c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Seconds: 5
 --- !u!135 &13524806
 SphereCollider:
   m_ObjectHideFlags: 1

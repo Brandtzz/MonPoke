@@ -8,10 +8,13 @@ public class throwBallScript : MonoBehaviour
     private Vector3 CameraPosition; 
     public GameObject launchPoint; 
 
-    public GameObject monPokeCatcher;
-	Transform prefabMonPokeCatcher;
+    //public GameObject monPokeCatcher;
+	public GameObject prefabMonPokeCatcher;
 
     public bool aimingMode; 
+
+	public float minLifetime = 10;
+	public float maxLifetime = 11;
 
     public float Velocity = 1000;
 	private float BallTimer = 0;
@@ -29,7 +32,7 @@ public class throwBallScript : MonoBehaviour
     void ShootBall()
     {
 		aimingMode = true;
-        monPokeCatcher = Instantiate(monPokeCatcher) as GameObject;
+        GameObject monPokeCatcher = Instantiate(prefabMonPokeCatcher) as GameObject;
         monPokeCatcher.transform.position = launchPoint.transform.position;
         monPokeCatcher.GetComponent<Rigidbody>().isKinematic = false;
 		monPokeCatcher.GetComponent<Rigidbody>().AddForce(transform.forward.normalized * Velocity);
@@ -39,27 +42,22 @@ public class throwBallScript : MonoBehaviour
     void Update()
     {
 		BallTimer += Time.deltaTime;
-		timeToDestroy += Time.deltaTime;
 
 		if (Input.GetMouseButtonDown (0) && BallTimer >= 5) {
 			ShootBall ();
 			BallTimer = 0;
 		}
 
-		DestroyBall ();
+		//DestroyBall ();
     }
 
 	void DestroyBall() {
-		
-		if (timeToDestroy >= 3) {
-			Destroy (monPokeCatcher, timeToDestroy);
-			timeToDestroy = 0;
-		}
 
-		if (gameObject == null) {
-			//GameObject.Instantiate (monPokeCatcher);
-//			GameObject = Instantiate (prefabMonPokeCatcher);
-		}
+
+
+	/**	while (ShootBall == true) { 
+
+		} */
 	}
 
 }

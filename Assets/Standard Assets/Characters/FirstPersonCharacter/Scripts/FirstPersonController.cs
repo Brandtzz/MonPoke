@@ -26,8 +26,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		[SerializeField] private float m_StepInterval;
 		[SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
 		[SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
-		[SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+		[SerializeField] private AudioClip m_LandSound;// the sound played when character touches back on ground.
 
+	
+		 
 		private Camera m_Camera;
 		private bool m_Jump;
 		private float m_YRotation;
@@ -41,6 +43,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private float m_NextStep;
 		private bool m_Jumping;
 		private AudioSource m_AudioSource;
+		public GameObject vr_Head;
+
 
 		// Use this for initialization
 		private void Start()
@@ -97,7 +101,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			float speed;
 			GetInput(out speed);
 			// always move along the camera forward as it is the direction that it being aimed at
-			Vector3 desiredMove = transform.forward*m_Input.y + transform.right*m_Input.x;
+			Vector3 desiredMove = vr_Head.transform.forward*m_Input.y + vr_Head.transform.right*m_Input.x;
 
 			// get a normal for the surface that is being touched to move along it
 			RaycastHit hitInfo;
@@ -204,8 +208,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private void GetInput(out float speed)
 		{
 			// Read input
-			float horizontal = CrossPlatformInputManager.GetAxis("Horizontal");
-			float vertical = CrossPlatformInputManager.GetAxis("Vertical");
+			float horizontal = Input.GetAxis("Horizontal");
+			float vertical = Input.GetAxis("Vertical");
 
 			bool waswalking = m_IsWalking;
 
@@ -237,6 +241,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private void RotateView()
 		{
 			m_MouseLook.LookRotation (transform, m_Camera.transform);
+		
+
 		}
 
 

@@ -3,12 +3,13 @@ using System.Collections;
 
 public class throwBallScript : MonoBehaviour 
 {
+	
 
     static public throwBallScript BallScript; 
     private Vector3 CameraPosition; 
     public GameObject launchPoint; 
 
-    //public GameObject monPokeCatcher;
+   
 	public GameObject prefabMonPokeCatcher;
 
     public bool aimingMode; 
@@ -43,21 +44,13 @@ public class throwBallScript : MonoBehaviour
     {
 		BallTimer += Time.deltaTime;
 
-		if (Input.GetMouseButtonDown (0) && BallTimer >= 5) {
+		if (Input.GetButtonDown("Fire1") && BallTimer >= 5) {
 			ShootBall ();
 			BallTimer = 0;
 		}
 
-		//DestroyBall ();
+	
     }
 
-	void DestroyBall() {
-
-
-
-	/**	while (ShootBall == true) { 
-
-		} */
-	}
 
 }
